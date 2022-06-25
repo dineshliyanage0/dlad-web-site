@@ -1,6 +1,6 @@
 import { chakra, Icon } from "@chakra-ui/react";
 import type { HTMLChakraProps } from "@chakra-ui/react";
-import { FaHeart } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { CONSTANTS } from "components/utils/constants";
 
 const SponsorButton = (props: HTMLChakraProps<"div">) => (
@@ -34,9 +34,9 @@ const SponsorButton = (props: HTMLChakraProps<"div">) => (
     }}
     {...props}
   >
-    <Icon as={FaHeart} w="4" h="4" color="red.500" mr="2" />
+    <Icon as={FaPhoneAlt} w="4" h="4" mr="2" />
     <chakra.div as="strong" lineHeight="inherit" fontWeight="semibold">
-      Sponsor
+      Call Us
     </chakra.div>
   </chakra.div>
 );

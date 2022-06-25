@@ -11,6 +11,7 @@ import {
   Tooltip,
 } from "@chakra-ui/react";
 import { FiExternalLink } from "react-icons/fi";
+
 const OpenSource = ({ contributors }) => {
   return (
     <Box
@@ -23,12 +24,11 @@ const OpenSource = ({ contributors }) => {
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={0}>
         <Flex bg="brand.400">
           <Image
-            src="https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Z2l0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            src="/helios-login-screen.png"
             alt="Open Source"
             fit="cover"
             w="full"
             h={{ base: 64, md: "full" }}
-            bg="gray.100"
             loading="lazy"
             opacity={0.9}
           />
@@ -46,7 +46,7 @@ const OpenSource = ({ contributors }) => {
             textTransform="uppercase"
             fontWeight="extrabold"
           >
-            Help us grow
+            Lorem, ipsum dolor.
           </Box>
           <Box
             mb={4}
@@ -56,7 +56,7 @@ const OpenSource = ({ contributors }) => {
             lineHeight="shorter"
             textShadow="2px 0 currentcolor"
           >
-            We're open source
+            Evenrything in One
           </Box>
           <Box
             pr={{ base: 0, lg: 16 }}
@@ -66,8 +66,8 @@ const OpenSource = ({ contributors }) => {
             letterSpacing="wider"
           >
             because{" "}
-            <i>the right to learn and to share what is learned with others </i>
-            is fundamental to product growth and relevance.
+            <i>Lorem ipsum dolor sit amet consectetur adipisicing.</i>
+            Lorem ipsum dolor sit amet consectetur.
             <Box>
               {" "}
               So <b>join us now.</b>{" "}
@@ -75,7 +75,7 @@ const OpenSource = ({ contributors }) => {
           </Box>
           <Box display="inline-flex" rounded="md" shadow="md">
             <Link
-              href={process.env.githubChoc}
+              href={process.env.teadropDlad}
               mt={2}
               display="inline-flex"
               alignItems="center"
@@ -92,34 +92,9 @@ const OpenSource = ({ contributors }) => {
                 bg: useColorModeValue("brand.700", "brand.600"),
               }}
             >
-              Contribute to Choc UI
+              See how it works
               <Icon as={FiExternalLink} ml={2} />
             </Link>
-          </Box>
-          <Box mt={5}>
-            <Box>
-              {contributors &&
-                contributors.map((contributor, cid) => (
-                  <Tooltip
-                    hasArrow
-                    label={contributor.name}
-                    aria-label={contributor.name}
-                    key={cid}
-                  >
-                    <Avatar
-                      size={contributors.length > 13 ? "sm" : "md"}
-                      as="a"
-                      href={contributor.profile}
-                      target="_blank"
-                      name={contributor.name}
-                      src={contributor.avatar_url}
-                      loading="lazy"
-                      rel="noreferrer"
-                      ml={-2}
-                    />
-                  </Tooltip>
-                ))}
-            </Box>
           </Box>
         </Flex>
       </SimpleGrid>

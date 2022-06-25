@@ -13,19 +13,17 @@ export default function Credits() {
         mt="8"
         mb={3}
       >
-        Proudly developed in{" "}
-        <Icon viewBox="0 0 6 3" boxSize={4}>
+        Proudly developed{" "}
+        {/* <Icon viewBox="0 0 6 3" boxSize={4}>
           <rect width="6" height="4" fill="#008751" />
           <rect x="2" width="2" height="4" fill="#FFF" />
-        </Icon>{" "}
+        </Icon>{" "} */}
         by{" "}
         <Link
-          isExternal
           rel="noreferrer"
-          href={process.env.twitterUrl}
           aria-label="Anuoluwapo Abraham"
         >
-          Anuoluwapo Abraham
+          DLAD Software Solutions
         </Link>
       </Text>
       <HStack spacing={4}>
