@@ -76,7 +76,7 @@ export const LandingHero = () => {
           },
         }}
       >
-        <Link href="/docs/installation" passHref>
+        <Link href="" passHref>
           <Button as="a" variant="solid" colorScheme="brand" size="lg" data-cta>
             Get Started
           </Button>
