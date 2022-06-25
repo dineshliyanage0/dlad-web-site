@@ -1,7 +1,6 @@
 import { registerPlugin, transform } from "@babel/standalone";
 import type { Visitor } from "@babel/traverse";
 import type { Dict } from "@chakra-ui/utils";
-const prettier = require("prettier/standalone");
 
 export function transformCode(code?: string) {
   if (!code) return "<b>Code not found for this component </b>";
@@ -45,11 +44,6 @@ export function transformCode(code?: string) {
   newCode = onlyReturn
     ? newCode.substring(newCode.indexOf("<") - 1, newCode.lastIndexOf(">") + 1)
     : newCode;
-
-  newCode = prettier.format(newCode, {
-    parser: "babel",
-    plugins: [require("prettier/parser-babel")],
-  });
 
   return newCode;
 }

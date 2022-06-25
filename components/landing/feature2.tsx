@@ -71,7 +71,7 @@ const Features = () => {
               mb="16px"
               lineHeight="1.2"
             >
-              An experience you'd expect from a component library
+              How we can help you grow your business
             </chakra.h1>
             <chakra.p
               mt={4}
@@ -80,7 +80,7 @@ const Features = () => {
               mx={{ lg: "auto" }}
               color={useColorModeValue("gray.500", "gray.400")}
             >
-              Opinionated and designed for daily use.
+              Lorem ipsum dolor sit amet consectetur.
             </chakra.p>{" "}
           </Box>
           <SimpleGrid
@@ -90,18 +90,15 @@ const Features = () => {
             mt={12}
             mx="2rem"
           >
-            <Feature title="Live Editor" icon={FaEdit}>
-              Live code editor, so you can play around with code, before
-              extracting into your work.
+            <Feature title="SAP B1" icon={FaEdit}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dignissimos dolore laborum quam ullam! Rem?
             </Feature>
 
-            <Feature title="Light and Dark UI" icon={FaSun}>
-              Optimized for multiple color modes. Use light or dark, your
-              choice.
+            <Feature title="Shopify" icon={FaSun}>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, non.
             </Feature>
-            <Feature title="Fully Responsive" icon={FaMobileAlt}>
-              From the smallest to the largest, our Components are comfortable
-              on any screen.
+            <Feature title="Process Re-engineering" icon={FaMobileAlt}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum esse aut tenetur amet laboriosam labore.
             </Feature>
           </SimpleGrid>
         </Box>

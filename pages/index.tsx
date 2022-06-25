@@ -15,10 +15,10 @@ import { ComponentSample } from "components/landing/component-sample";
 const Home: NextPage = (props: any) => {
   return (
     <SiteLayout>
-      <PageHead title="Chakra UI Prebuilt Components" />
+      <PageHead title="DLAD Software Solutions" />
       <Box mb={20}>
         <LandingHero />
-        <ComponentSample />
+        {/* <ComponentSample /> */}
         <Feature2 />
         <OpenSource contributors={props.contributors} />
         <Sponsors sponsors={props.sponsors} />

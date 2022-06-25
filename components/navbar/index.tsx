@@ -41,15 +41,15 @@ function Navbar() {
           <Flex as="a">
             <Logo boxSize="6" mr="2" />
             <Heading fontSize="xl" fontWeight="semibold">
-              Choc UI
+              DLAD
             </Heading>
           </Flex>
         </Link>
       </Flex>
 
-      <Flex justify="center">
+      {/* <Flex justify="center">
         <DocSearch w="sm" display={{ md: "flex" }} />
-      </Flex>
+      </Flex> */}
 
       <Flex justify="right">
         <ButtonGroup alignItems="center">

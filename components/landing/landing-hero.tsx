@@ -31,17 +31,20 @@ export const LandingHero = () => {
           color: "gray.100",
         }}
       >
-        Prebuilt{" "}
+        Trun your SAP Experience{" "}
         <Text
           display="inline"
           w="full"
           bgClip="text"
-          bgGradient="linear(to-r, green.400,purple.500)"
+          bgGradient="linear(to-r, purple.400, pink.500)"
           fontWeight="extrabold"
         >
-          Chakra UI Components
-        </Text>{" "}
-        for faster development
+          180<Text display="inline"
+            w="full"
+            bgClip="text"
+            bgGradient="linear(to-r, pink.500, pink.500)"
+            fontWeight="extrabold" as='sup'>0</Text>
+        </Text> some text{" "}
       </Heading>
 
       <chakra.p
@@ -53,9 +56,7 @@ export const LandingHero = () => {
         }}
         maxW="container.md"
       >
-        Choc UI is a set of accessible and reusable components that are commonly
-        used in web applications. Provides premade responsive and color mode
-        felxible components to help you build faster than ever.
+        Lorem ipsum dolor sit, amet consectetur adipisicing iam reprehenderit commodi tempora dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsa.
       </chakra.p>
 
       <Flex

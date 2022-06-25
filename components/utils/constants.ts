@@ -1,11 +1,11 @@
 export const CONSTANTS = {
-  CHOC_TWITTER: "https://twitter.com/choc_ui",
-  CHOC_DISCORD: "https://discord.gg/XcD8bNv7Ne",
-  CHOC_GITHUB: "https://github.com/anubra266/choc-ui",
+  CHOC_TWITTER: "",
+  CHOC_DISCORD: "",
+  CHOC_GITHUB: "",
 
-  SPONSOR_LINK: "https://patreon.com/anubra266",
-  AUTHOR_GITHUB: "https://github.com/anubra266",
-  AUTHOR_TWITTER: "https://twitter.com/anubra266",
-  AUTHOR_LINKEDIN: "https://linkedin.com/in/anubra266",
-  AUTHOR_EMAIL: "abraham@anubra266.com",
+  SPONSOR_LINK: "",
+  AUTHOR_GITHUB: "",
+  AUTHOR_TWITTER: "",
+  AUTHOR_LINKEDIN: "",
+  AUTHOR_EMAIL: "",
 };
