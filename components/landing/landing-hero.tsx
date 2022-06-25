@@ -77,11 +77,11 @@ export const LandingHero = () => {
         }}
       >
         <Link href="" passHref>
-          <Button as="a" variant="solid" colorScheme="brand" size="lg" data-cta>
+          <Button as="a" variant="outline" colorScheme="brand" size="lg" data-cta>
             Get Started
           </Button>
         </Link>
-        <Button
+        {/* <Button
           as="a"
           colorScheme="gray"
           size="lg"
@@ -91,7 +91,7 @@ export const LandingHero = () => {
         >
           Github
           <Icon boxSize={4} ml={2} as={FaGithub} />
-        </Button>
+        </Button> */}
       </Flex>
     </Stack>
   );
