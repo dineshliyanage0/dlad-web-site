@@ -33,12 +33,18 @@ export const LandingHero = () => {
           bgGradient="linear(to-r, purple.400, pink.500)"
           fontWeight="extrabold"
         >
-          X<Text display="inline"
+          X
+          <Text display="inline"
             w="full"
             bgClip="text"
             bgGradient="linear(to-r, pink.500, pink.500)"
             fontWeight="extrabold" as='sup'>2</Text>
-        </Text> With DLAD{" "}
+        </Text> With
+        <Text display="inline"
+          w="full"
+          bgClip="text"
+          bgGradient="linear(to-r, orange.500, pink.500)"
+          fontWeight="extrabold"> DLAD{" "}</Text>
       </Heading>
 
       <chakra.p
@@ -50,7 +56,11 @@ export const LandingHero = () => {
         }}
         maxW="container.md"
       >
-        Lorem ipsum dolor sit, amet consectetur adipisicing iam reprehenderit commodi tempora dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsa.
+        For Organizations with intense desire to be <Text display="inline"
+          w="full"
+          bgClip="text"
+          bgGradient="linear(to-r, orange.500, pink.500)"
+          fontWeight="extrabold">THE GREATEST{""}</Text>, but idle because of the Tools
       </chakra.p>
 
       <Flex
@@ -72,7 +82,7 @@ export const LandingHero = () => {
       >
         <Link href="" passHref>
           <Button as="a" variant="outline" colorScheme="brand" size="lg" data-cta>
-            Get Started
+            Read Your Story
           </Button>
         </Link>
         {/* <Button
