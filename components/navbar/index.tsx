@@ -1,4 +1,4 @@
-import { ButtonGroup, Flex, Heading, chakra, HStack, Popover, PopoverTrigger, Button, PopoverContent, useColorModeValue, SimpleGrid, Icon, Box, Stack, Link } from "@chakra-ui/react";
+import { ButtonGroup, Flex, Heading, chakra, HStack, Popover, PopoverTrigger, Button, PopoverContent, useColorModeValue, SimpleGrid, Icon, Box, Stack, Link, Text } from "@chakra-ui/react";
 import { useViewportScroll } from "framer-motion";
 import React from "react";
 import { FaDiscord, FaGithub, FaTwitter } from "react-icons/fa";
@@ -45,7 +45,11 @@ function Navbar() {
           <Flex as="a">
             <Logo boxSize="6" mr="2" />
             <Heading fontSize="xl" fontWeight="semibold">
-              DLAD
+              <Text
+                bgGradient="linear(to-r, orange.500, pink.500)"
+                bgClip='text'
+                fontWeight='extrabold'
+              >DLAD</Text>
             </Heading>
           </Flex>
         </NLink>

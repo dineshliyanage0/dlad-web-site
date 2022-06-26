@@ -56,7 +56,8 @@ export const LandingHero = () => {
         }}
         maxW="container.md"
       >
-        For Organizations with intense desire to be <Text display="inline"
+        For Organizations with intense desire to be
+        <Text display="inline"
           w="full"
           bgClip="text"
           bgGradient="linear(to-r, orange.500, pink.500)"
@@ -80,7 +81,7 @@ export const LandingHero = () => {
           },
         }}
       >
-        <Link href="" passHref>
+        <Link href="/stories" passHref>
           <Button as="a" variant="outline" colorScheme="brand" size="lg" data-cta>
             Read Your Story
           </Button>
