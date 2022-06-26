@@ -25,7 +25,7 @@ export const LandingHero = () => {
           color: "gray.100",
         }}
       >
-        Trun Your Company{" "}
+        Turn Your Company{" "}
         <Text
           display="inline"
           w="full"
