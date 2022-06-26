@@ -23,7 +23,7 @@ const Home: NextPage = (props: any) => {
         <OpenSource contributors={props.contributors} />
         <Sponsors sponsors={props.sponsors} />
         {/* <Splitbee /> */}
-        <Credits />
+        {/* <Credits /> */}
       </Box>
     </SiteLayout>
   );

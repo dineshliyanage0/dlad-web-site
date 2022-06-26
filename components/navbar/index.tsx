@@ -164,7 +164,7 @@ function Navbar() {
             aria-label="DLAD's Github Repo"
             icon={<FaGithub />}
           />
-          <ColorModeToggle />
+          {/* <ColorModeToggle /> */}
           <SponsorButton />
         </ButtonGroup>
       </Flex>

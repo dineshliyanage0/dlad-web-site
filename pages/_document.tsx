@@ -9,6 +9,7 @@ import NextDocument, {
 import { ColorModeScript } from "@chakra-ui/react";
 import { config } from "theme";
 import GAScript from "analytics/ga-script";
+import Footer from "components/footer";
 class Document extends NextDocument {
 
   static getInitialProps(ctx: DocumentContext) {
@@ -25,6 +26,7 @@ class Document extends NextDocument {
           <NextScript />
           <GAScript />
         </body>
+        <Footer />
       </Html>
     );
   }

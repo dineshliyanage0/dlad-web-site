@@ -3,14 +3,17 @@ import React, { useEffect, useState } from "react";
 import { FiArrowUp } from "react-icons/fi";
 
 const ToTop = () => {
+
   const scrollToTop = () => window.scroll({ top: 0, behavior: "smooth" });
   const getVisible = () =>
     document.body.scrollTop > 20 || document.documentElement.scrollTop > 20;
   const [isVisible, setIsVisible] = useState(false);
+
   useEffect(() => {
     setIsVisible(() => getVisible());
     window.onscroll = () => setIsVisible(() => getVisible());
   }, []);
+
   return (
     <IconButton
       aria-label="Back to top"
