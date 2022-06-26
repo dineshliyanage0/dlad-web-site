@@ -7,21 +7,21 @@ const Dynamic = (props) => {
     return s.charAt(0).toUpperCase() + s.slice(1);
   };
   const description =
-    "Choc UI is a set of accessible and reusable components that are commonly used in web applications.";
+    "some description hear";
   return (
     <Head>
-      <title>{capitalize(props.title)} | Choc UI</title>
+      <title>{capitalize(props.title)}</title>
 
-      <meta name="title" content={`${capitalize(props.title)} | Choc UI`} />
+      <meta name="title" content={`${capitalize(props.title)}`} />
       <meta name="description" content={props.description || description} />
 
       <meta
         property="og:title"
-        content={`${capitalize(props.title)} | Choc UI`}
+        content={`${capitalize(props.title)}`}
       />
       <meta
         property="twitter:title"
-        content={`${capitalize(props.title)} | Choc UI`}
+        content={`${capitalize(props.title)}`}
       />
       <meta
         property="og:description"

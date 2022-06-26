@@ -80,7 +80,7 @@ const Choc = () => {
       <Flex px="4" py="5" align="center">
         <Logo />
         <Text fontSize="2xl" ml="2" color="white" fontWeight="semibold">
-          Choc UI
+          DLAD
         </Text>
       </Flex>
       <Flex

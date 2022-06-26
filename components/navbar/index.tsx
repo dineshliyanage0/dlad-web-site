@@ -133,19 +133,19 @@ function Navbar() {
           <ActionButton
             isLink
             href={CONSTANTS.CHOC_TWITTER}
-            aria-label="Choc UI on twitter"
+            aria-label="DLAD on twitter"
             icon={<FaTwitter />}
           />
           <ActionButton
             isLink
             href={CONSTANTS.CHOC_DISCORD}
-            aria-label="Choc UI discord server"
+            aria-label="DLAD discord server"
             icon={<FaDiscord />}
           />
           <ActionButton
             isLink
             href={CONSTANTS.CHOC_GITHUB}
-            aria-label="Choc UI's Github Repo"
+            aria-label="DLAD's Github Repo"
             icon={<FaGithub />}
           />
           <ColorModeToggle />

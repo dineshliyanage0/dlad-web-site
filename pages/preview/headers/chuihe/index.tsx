@@ -47,7 +47,7 @@ const Choc = () => {
       display={{ base: "none", md: "flex" }}
       alignItems="center"
       as="a"
-      aria-label="Sponsor Choc UI on Open Collective"
+      aria-label="Sponsor DLAD on Open Collective"
       href={""}
       target="_blank"
       rel="noopener noreferrer"
@@ -148,8 +148,8 @@ const Choc = () => {
               <HStack spacing="5" display={{ base: "none", md: "flex" }}>
                 <Link
                   isExternal
-                  aria-label="Go to Choc UI GitHub page"
-                  href="https://github.com/anubra266/choc-ui"
+                  aria-label="Go to DLAD GitHub page"
+                  href="https://github.com"
                 >
                   <Icon
                     as={AiFillGithub}

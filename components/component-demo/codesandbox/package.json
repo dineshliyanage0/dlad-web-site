@@ -1,11 +1,8 @@
 {
-  "name": "choc_ui",
+  "name": "dlad_web_site",
   "version": "1.0.0",
-  "description": "Choc UI",
+  "description": "DLAD Web Site",
   "keywords": [
-    "react",
-    "choc-ui",
-    "chakra-ui"
   ],
   "main": "src/index.js",
   "dependencies": {

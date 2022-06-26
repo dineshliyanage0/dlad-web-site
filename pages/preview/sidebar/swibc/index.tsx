@@ -93,7 +93,7 @@ const Choc = () => {
           _dark={{ color: "white" }}
           fontWeight="semibold"
         >
-          Choc UI
+          DLAD
         </Text>
       </Flex>
       <Flex

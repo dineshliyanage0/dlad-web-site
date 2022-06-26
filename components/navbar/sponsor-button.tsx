@@ -8,7 +8,7 @@ const SponsorButton = (props: HTMLChakraProps<"div">) => (
     display={{ base: "none", md: "flex" }}
     alignItems="center"
     as="a"
-    aria-label="Sponsor Choc UI on Open Collective"
+    aria-label="Sponsor DLAD on Open Collective"
     href={CONSTANTS.SPONSOR_LINK}
     target="_blank"
     rel="noopener noreferrer"

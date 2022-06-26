@@ -39,7 +39,7 @@ const Introduction = () => {
           Then a Wonderful Designer {chrisham} posted code for some components
           she had converted into {chakraui} from other libraries. I studied her
           code, and tried to understand the conversion. Then I took some time
-          studying the internals of {chakraui}. The result is Choc UI.
+          studying the internals of {chakraui}. The result is
         </Section.p>
       </Section.Content>
     </Section>
