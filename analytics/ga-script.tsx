@@ -1,6 +1,6 @@
 import React from "react";
 
-const GA_TRACKING_ID = "G-YVRM2PTZFG";
+const GA_TRACKING_ID = "G-LVJDMCM5RS";
 
 const GAScript = () => (
   <>
