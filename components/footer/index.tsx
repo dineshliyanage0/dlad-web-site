@@ -22,8 +22,10 @@ const Footer = (props) => {
                 p={10}
             >
                 <Flex justify="center">
-                    <Image
-                        src="http://placehold.jp/2a2a2c/ffffff/200x100.png?text=Company%20Logo&css=%7B%22font-size%20%22%3A%22%2016px%22%7D"
+                    {/* <Image
+                        src="https://teadrop.dlad.io/static/media/dlad-logo.f9ce3de6b4766c862ba4.png"
+                        fit={'contain'}
+                        boxSize="6" mr="2"
                         alt="Company Logo"
                         rounded="lg"
                         width={{
@@ -38,6 +40,17 @@ const Footer = (props) => {
                             base: 2,
                             lg: 0,
                         }}
+                    /> */}
+
+                    <Image
+                        boxSize="96"
+                        src="https://teadrop.dlad.io/static/media/dlad-logo.f9ce3de6b4766c862ba4.png"
+                        alt="Open Source"
+                        fit="cover"
+                        w="full"
+                        h={{ base: 6, md: 6 }}
+                        loading="lazy"
+                        opacity={0.9}
                     />
                 </Flex>
                 <HStack

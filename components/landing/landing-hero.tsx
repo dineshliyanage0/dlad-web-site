@@ -61,7 +61,7 @@ export const LandingHero = () => {
           w="full"
           bgClip="text"
           bgGradient="linear(to-r, orange.500, pink.500)"
-          fontWeight="extrabold">THE GREATEST{""}</Text>, but idle because of the Tools
+          fontWeight="extrabold">{" "}THE GREATEST{""}</Text>, but idle because of the Tools
       </chakra.p>
 
       <Flex
