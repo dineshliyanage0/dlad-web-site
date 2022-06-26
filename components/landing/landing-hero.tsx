@@ -1,15 +1,9 @@
 import {
-  Button,
-  Flex,
-  Heading,
-  Icon,
-  Stack,
-  Text,
-  chakra,
+  Button, chakra, Flex,
+  Heading, Stack,
+  Text
 } from "@chakra-ui/react";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa";
-import { CONSTANTS } from "components/utils/constants";
 
 export const LandingHero = () => {
   return (
@@ -31,7 +25,7 @@ export const LandingHero = () => {
           color: "gray.100",
         }}
       >
-        Trun your SAP Experience{" "}
+        Trun Your Company{" "}
         <Text
           display="inline"
           w="full"
@@ -39,12 +33,12 @@ export const LandingHero = () => {
           bgGradient="linear(to-r, purple.400, pink.500)"
           fontWeight="extrabold"
         >
-          180<Text display="inline"
+          X<Text display="inline"
             w="full"
             bgClip="text"
             bgGradient="linear(to-r, pink.500, pink.500)"
-            fontWeight="extrabold" as='sup'>0</Text>
-        </Text> some text{" "}
+            fontWeight="extrabold" as='sup'>2</Text>
+        </Text> With DLAD{" "}
       </Heading>
 
       <chakra.p

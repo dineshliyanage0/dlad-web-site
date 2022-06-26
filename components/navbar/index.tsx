@@ -125,6 +125,22 @@ function Navbar() {
           >
             Pricing
           </Button>
+          <Button
+            bg={bg}
+            color="gray.500"
+            display="inline-flex"
+            variant={'outline'}
+            alignItems="center"
+            fontSize="md"
+            _hover={{
+              color: cl,
+            }}
+            _focus={{
+              boxShadow: "none",
+            }}
+          >
+            Stories
+          </Button>
         </HStack>
       </Flex>
 
